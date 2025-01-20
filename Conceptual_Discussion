@@ -1,0 +1,8 @@
+Explain how the VAE decoder can be used as a GAN generator.
+
+In GANs, the generator creates fake data, while in VAEs, the decoder reconstructs data from a latent space. The VAE decoder can be used as a GAN generator by mapping a latent noise vector to data space. 
+
+
+Discuss the differences between the VAE encoder and the GAN discriminator.
+
+The VAE encoder maps input data to a latent distribution, capturing the structure of data in the latent space. In contrast, the GAN discriminator is a binary classifier that distinguishes between real and fake data. The encoder is focused on learning latent representations, while the discriminator is focused on distinguishing real from fake data.

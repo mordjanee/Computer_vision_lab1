@@ -1,0 +1,9 @@
+1. Why do we use the reparameterization trick in VAEs?
+We use it because it makes sampling from the latent space differentiable, enabling gradient-based optimization.
+
+2. How does the KL divergence loss affect the latent space?
+It regularizes the latent space to be close to a standard Gaussian distribution, encouraging smooth and structured latent space representations.
+
+3. How does changing the latent space dimension (latent_dim) impact the reconstruction quality?
+Increasing the latent dimension allows the model to capture more complex data patterns but increases the risk of overfitting and poor regularization.
+Decreasing the latent dimension forces the model to compress the data, improving generalization but at the cost of reconstruction quality.
